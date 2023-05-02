@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.fondo{
+    background-image: url("images/fondopagina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Crimson Text', serif;
+    
+}
+
+.fondologo{
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar li{
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 5px 30px;
+}
+
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li:hover{
+    box-shadow: 0 3px 0px 0 rgb(20, 14, 109);
+}
+
+.navbar li a:hover{
+    color: rgb(20, 14, 109);
+}
+
+.carousel-inner .carousel-item img{
+    width: 400px;
+    height: 650px;
+}
+
+
+.concepto{
+    margin:100px;
+    text-align: center;
+}
+
+.conceptovarios{
+    margin-top: 35px;
+    padding: 100px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+h2{
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+h3{
+    margin-top: 30px;
+    padding: 50px 50px 10px 50px;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6 a{
+    color: white;
+    text-decoration: none;
+}
+
+h6 a:hover{
+    color: rgb(128, 122, 122);
+}
+
+footer{
+    background-color:#181717;
+    color: rgb(224, 224, 224);
+   
+}
+
+h5{
+    padding-top: 50px;
+}
+.arreglofooter{
+    padding-left: 110px;
+}
+
+.fb{
+    
+    font-size: 35px;
+    color: #43484b;
+    
+}
+
+.tw{
+    font-size: 35px;
+    color: #43484b;
+}
+
+.yt{
+    font-size: 35px;
+    color: #43484b;
+}
+
+.ig{
+    
+    font-size: 35px;
+    color: #43484b;
+}
+
+.wsp{
+    font-size: 35px;
+    color: #43484b;
+}
+
+.fb:hover{
+    
+    font-size: 35px;
+    color: #3b5998 ;
+    
+}
+
+.tw:hover{
+    font-size: 35px;
+    color: #00acee;
+}
+
+.yt:hover{
+    font-size: 35px;
+    color: #c4302b;
+}
+
+.ig:hover{
+    
+    font-size: 35px;
+    color:#833AB4;
+   
+} 
+
+.wsp:hover{
+    font-size: 35px;
+    color: #25D366;
+}
+
+.imgaleria{
+    height: 250px;
+    width: 250px;
+    
+}
+
+
+#Galeria{
+    margin: 70px 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0, 0.7);
+    background-clip: padding-box;
+}
+
+.trabaja{
+    margin: 20px 0px 20px 0px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 4px 2px 4px 1px rgb(0, 0, 0);
+
+}
+
+.formulario{
+    background-color: whitesmoke;
+}
+
+.item-profesional{
+   
+    background-color: rgb(121, 191, 201, 0.5);
+    border-radius: 2px;
+    color: black;
+    box-shadow: 3px 3px 2px 3px #054044;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+
+.imagen-circular {
+    width: 300px; /* Tamaño deseado de la imagen circular */
+    height: 300px; /* Tamaño deseado de la imagen circular */
+    border-radius: 50%; /* Establece el radio para crear un modelo circular */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del modelo circular */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  
+.imagen-circular img {
+    width: 100%; /* Asegura que la imagen ocupe todo el espacio disponible dentro del modelo circular */
+    height: 100%; /* Asegura que la imagen ocupe todo el espacio disponible dentro del modelo circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste proporcionalmente dentro del modelo circular */
+}
+  
