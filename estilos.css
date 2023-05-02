@@ -205,11 +205,17 @@ h5{
     overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del modelo circular */
     padding-left: 0px;
     padding-right: 0px;
+    
 }
   
 .imagen-circular img {
     width: 100%; /* Asegura que la imagen ocupe todo el espacio disponible dentro del modelo circular */
     height: 100%; /* Asegura que la imagen ocupe todo el espacio disponible dentro del modelo circular */
     object-fit: cover; /* Asegura que la imagen se ajuste proporcionalmente dentro del modelo circular */
+    
+}
+
+h4{
+    margin-top: 30px;
 }
   
