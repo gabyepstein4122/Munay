@@ -19,43 +19,6 @@
     box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
-.menu-toggle {
-    display: block;
-    position: relative;
-    z-index: 1;
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
-    margin-left: auto;
- }
-  
- .menu-toggle span {
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background: black;
-    border-radius: 2px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .menu-toggle span:nth-child(1) {
-    top: 0px;
-  }
-  
-  .menu-toggle span:nth-child(2),
-  .menu-toggle span:nth-child(3) {
-    top: 8px;
-  }
-  
-  .menu-toggle span:nth-child(3) {
-    top: 16px;
-  }
-  
-
 .navbar{
     list-style: none;
     display: flex;
@@ -92,6 +55,7 @@
 .concepto{
     margin:100px;
     text-align: center;
+    
 }
 
 .conceptovarios{
@@ -107,8 +71,8 @@ h2{
 }
 
 h3{
-    margin-top: 30px;
-    padding: 50px 50px 10px 50px;
+    
+    padding: 30px 50px 10px 50px;
 }
 
 h6{
@@ -127,16 +91,21 @@ h6 a:hover{
 footer{
     background-color:#181717;
     color: rgb(224, 224, 224);
-   
+
+}
+
+.margen-derecha{
+    margin-right: 10px;
+}
+.margen-izquierda{
+    margin-left: 10px;
 }
 
 h5{
     padding-top: 50px;
 }
 
-.arreglofooter{
-    padding-left: 110px;
-}
+
 
 .fb{
     
@@ -187,7 +156,6 @@ h5{
     
     font-size: 35px;
     color:#833AB4;
-   
 } 
 
 .wsp:hover{
@@ -223,7 +191,6 @@ h5{
 }
 
 .item-profesional{
-   
     background-color: rgb(121, 191, 201, 0.5);
     border-radius: 2px;
     color: black;
@@ -244,7 +211,7 @@ h5{
     padding-right: 0px;
     
 }
-  
+
 .imagen-circular img {
     width: 100%; /* Asegura que la imagen ocupe todo el espacio disponible dentro del modelo circular */
     height: 100%; /* Asegura que la imagen ocupe todo el espacio disponible dentro del modelo circular */
@@ -255,12 +222,11 @@ h5{
 h4{
     margin-top: 30px;
 }
-  
-@media (min-width: 375px) and (max-width: 768px) {
 
-    .arreglofooter{
-        padding-left: 0px;
-    }
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+
 
     .conceptovarios{
         margin-top: 35px;
@@ -274,6 +240,7 @@ h4{
     .concepto{
         margin:0px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .carousel-inner .carousel-item img{
@@ -281,64 +248,15 @@ h4{
         height: 400px;
     }
     
-    .navbar {
-        display: none;
+    .navbar{
+        flex-direction: column;
+        align-items: center;
     }
 
-    .hamburguesafondo{
-       
-        padding: 2px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        
+    .navbar li {
+        margin: 10px 0;
+        background-color: #ffff;
+        box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.3);
     }
-    
-    .menu-toggle {
-        display: block;
-        display: block;
-        position: relative;
-        z-index: 1;
-        height: 24px;
-        width: 24px;
-        cursor: pointer;
-        margin: 10px auto;
-         
-    }
-    
-    .menu-toggle.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-    }
-    
-    .menu-toggle.active span:nth-child(2) {
-        opacity: 0;
-    }
-    
-    .menu-toggle.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -6px);
-    }
-    
-   
-    .mobile-menu li {
-        display: block;
-        text-align: center;
-    }
-    
-    .mobile-menu {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: #f8f8f8;
-        padding: 1rem;
-        width: 100%;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease-out;
-    }
-      
-    .mobile-menu.active {
-        max-height: 1000px;
-        transition: max-height 0.5s ease-in;
-    }
-      
+
 }
-      
